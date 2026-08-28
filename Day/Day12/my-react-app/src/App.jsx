@@ -1,12 +1,15 @@
+import { Welcome } from "./components/P1.jsx";
+import Greet from "./components/P2.jsx";
+import { MyMovies } from "./components/P3";
 
 function App() {
-  
-
   return (
-    <h1>hello World</h1>
-
-
-  )
+    <div>
+      <Welcome />
+      <Greet />
+      <MyMovies />
+    </div>
+  );
 }
 
-export default App
+export default App;
